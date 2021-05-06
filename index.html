@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruit Site</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="l-titleBox">
+      <h1><a class="header__title" href="###">タイトルロゴ</a></h1>
+      <ul class="header__navBox">
+        <li class="header__titleList header__titleList--border"><a href="" class="header__link">採用担当者様へ</a></li>
+        <li class="header__titleList"><p class="header__text">こんにちは、<br>ゲストさま</p></li>
+        <li class="header__titleList"><a href="" class="header__loginBtn"><img class="header__loginImg" src="images//login.png" alt="ログイン">ログイン</a></li>
+        <li class="header__titleList"><a href="" class="header__newBtn"><img class="header__newImg" src="images//enroll.png">会員登録</a></li>
+      </ul>
+      <!-- ハンバーガーメニュー -->
+      <div id="nav-drawer">
+        <input id="nav-input" type="checkbox" class="nav-unshown">
+        <label id="nav-open" for="nav-input"><span></span></label>
+        <label class="nav-unshown" id="nav-close" for="nav-input"></label>
+        <div id="nav-content">
+          <div class="navContent__list">
+            <a class="navContent__item" href="###" alt="###"><span class="navContent__text">オススメの求人</span><span class="navContent__clickBtn">▶︎</span></a>
+            <a class="navContent__item" href="###" alt="###"><span class="navContent__text">求人を探す</span><span class="navContent__clickBtn">▶︎</span></a>
+            <a class="navContent__item" href="###" alt="###"><span class="navContent__text">地図から探す</span><span class="navContent__clickBtn">▶︎</span></a>
+            <a class="navContent__item" href="###" alt="###"><span class="navContent__text">最近見た求人</span><span class="navContent__clickBtn">▶︎</span></a>
+            <a class="navContent__item" href="###" alt="###"><span class="navContent__text">よくあるご質問</span><span class="navContent__clickBtn">▶︎</span></a>
+            <a class="navContent__item" href="###" alt="###"><span class="navContent__text">お祝い金申請</span><span class="navContent__clickBtn">▶︎</span></a>
+          </div>
+          <a href="" class="navContent__loginBtn"><img class="navContent__loginImg" src="images/login.png" alt="ログイン">ログイン</a>
+          <a href="" class="navContent__newBtn"><img class="navContent__newImg" src="images/enroll.png" alt="会員登録">会員登録</a>
+          <a href="" class="navContent__recruitBtn">採用担当者様へ</a>
+        </div>
+      </div>
+    </div><!--l-titleBox-->
+    <div class="l-menuBox">
+      <ul class="header__menuBox">
+        <li class="header__menuList"><a href="" class="header__menuLink">オススメの求人</a></li>
+        <li class="header__menuList"><a href="" class="header__menuLink">求人を探す</a></li>
+        <li class="header__menuList"><a href="" class="header__menuLink">地図から探す</a></li>
+        <li class="header__menuList"><a href="" class="header__menuLink">最近見た求人</a></li>
+        <li class="header__menuList"><a href="" class="header__menuLink">よくあるご質問</a></li>
+        <li class="header__menuList header__menuList--borderRight"><a href="" class="header__menuLink">お祝い金申請</a></li>
+      </ul>
+    </div><!--l-menuBox-->
+  </header>
+  <div class="l-mainVisual"><!--<img src="###" alt="###">--></div>
+  <div class="centering">
+    <div class="searchContainer">
+      <h2 class="searchContainer__title">勤務地・職種・雇用形態からカンタン求人検索！</h2>
+      <div class="searchContainer__selectArea">
+        <select name="place" id="" class="searchContainer__selectBox searchContainer__selectBox--left">
+          <option value="place">勤務地を選ぶ</option>
+        </select>
+        <select name="job" id="" class="searchContainer__selectBox searchContainer__selectBox--middle  ">
+          <option value="">職種を選ぶ</option>
+        </select>
+        <select name="jobStyle" id="" class="searchContainer__selectBox searchContainer__selectBox--right">
+          <option value="">雇用形態を選ぶ</option>
+        </select>
+        <button class="searchContainer__btn">検索</button>
+      </div>
+    </div><!--searchContainer-->
+  </div>
+  <div class="bgRecommendContainer">
+    <div class="recommendContainer">
+      <h2 class="recommendContainer__title"><img class="recommendContainer__titleImg" src="images/starLogo.png" alt="###">オススメの求人情報</h2>
+      <div class="recommendContainer__contentsWrapper">
+          <div class="recommendContainer__articleWrapper">
+            <div class="recommendArticleBox">
+              <div class="recommendArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="recommendArticleBox__image">--></div>
+              <div class="recommendArticleBox__textWrapper">
+                <p class="recommendArticleBox__title">エンジニア</p>
+                <h3><a href="###" class="recommendArticleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <div class="recommendArticleBox__tagWrapper">
+                  <span class="recommendArticleBox__tag">短期OK</span>
+                  <span class="recommendArticleBox__tag">長期募集</span>
+                  <span class="recommendArticleBox__tag">長期募集</span>
+                  <span class="recommendArticleBox__tag">時給1000円以上</span>
+                </div>
+                <p class="recommendArticleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="recommendContainer__articleWrapper">
+            <div class="recommendArticleBox">
+              <div class="recommendArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="recommendArticleBox__image">--></div>
+              <div class="recommendArticleBox__textWrapper">
+                <p class="recommendArticleBox__title">エンジニア</p>
+                <h3><a href="###" class="recommendArticleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <div class="recommendArticleBox__tagWrapper">
+                  <span class="recommendArticleBox__tag">短期OK</span>
+                  <span class="recommendArticleBox__tag">長期募集</span>
+                  <span class="recommendArticleBox__tag">時給1000円以上</span>
+                </div>
+                <p class="recommendArticleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="recommendContainer__articleWrapper">
+            <div class="recommendArticleBox">
+              <div class="recommendArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="recommendArticleBox__image">--></div>
+              <div class="recommendArticleBox__textWrapper">
+                <p class="recommendArticleBox__title">エンジニア</p>
+                <h3><a href="###" class="recommendArticleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <div class="recommendArticleBox__tagWrapper">
+                  <span class="recommendArticleBox__tag">短期OK</span>
+                  <span class="recommendArticleBox__tag">長期募集</span>
+                  <span class="recommendArticleBox__tag">時給1000円以上</span>
+                </div>
+                <p class="recommendArticleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="recommendContainer__articleWrapper">
+            <div class="recommendArticleBox">
+              <div class="recommendArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="recommendArticleBox__image">--></div>
+              <div class="recommendArticleBox__textWrapper">
+                <p class="recommendArticleBox__title">エンジニア</p>
+                <h3><a href="###" class="recommendArticleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <div class="recommendArticleBox__tagWrapper">
+                  <span class="recommendArticleBox__tag">短期OK</span>
+                  <span class="recommendArticleBox__tag">長期募集</span>
+                  <span class="recommendArticleBox__tag">時給1000円以上</span>
+                </div>
+                <p class="recommendArticleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="recommendContainer__articleWrapper">
+            <div class="recommendArticleBox">
+              <div class="recommendArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="recommendArticleBox__image">--></div>
+              <div class="recommendArticleBox__textWrapper">
+                <p class="recommendArticleBox__title">エンジニア</p>
+                <h3><a href="###" class="recommendArticleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <div class="recommendArticleBox__tagWrapper">
+                  <span class="recommendArticleBox__tag">短期OK</span>
+                  <span class="recommendArticleBox__tag">長期募集</span>
+                  <span class="recommendArticleBox__tag">時給1000円以上</span>
+                </div>
+                <p class="recommendArticleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      <a href="###" class="recommendContainer__btn"><div class="triangle"></div>もっと見る</a>
+    </div><!--recommendContainer-->
+  </div><!--bgRecommendContainer-->
+  <main class="main__wrapper">
+    <div class="l-main">
+      <div class="newContainer">
+        <h2 class="newContainer__title"><img class="newContainer__titleImg" src="images/newContainer__titleImg.png"><span class="newContainer__titleText">新着の求人情報</span></h2>
+        <div class="newContainer__contentsWrapper">
+          <div class="newContainer__articleWrapper">
+            <div class="articleBox">
+              <div class="articleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="articleBox__image">--></div>
+              <div class="articleBox__textWrapper">
+                <div class="articleBox__titleWrapper">
+                  <p class="articleBox__title">エンジニア</p>
+                  <p class="articleBox__date">2019/04/28</p>
+                </div>
+                <h3><a href="###" class="articleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <p class="articleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="newContainer__articleWrapper">
+            <div class="articleBox">
+              <div class="articleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="articleBox__image">--></div>
+              <div class="articleBox__textWrapper">
+                <div class="articleBox__titleWrapper">
+                  <p class="articleBox__title">エンジニア</p>
+                  <p class="articleBox__date">2019/04/28</p>
+                </div>
+                <h3><a href="###" class="articleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <p class="articleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="newContainer__articleWrapper">
+            <div class="articleBox">
+              <div class="articleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="articleBox__image">--></div>
+              <div class="articleBox__textWrapper">
+                <div class="articleBox__titleWrapper">
+                  <p class="articleBox__title">エンジニア</p>
+                  <p class="articleBox__date">2019/04/28</p>
+                </div>
+                <h3><a href="###" class="articleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <p class="articleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="newContainer__articleWrapper">
+            <div class="articleBox">
+              <div class="articleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="articleBox__image">--></div>
+              <div class="articleBox__textWrapper">
+                <div class="articleBox__titleWrapper">
+                  <p class="articleBox__title">エンジニア</p>
+                  <p class="articleBox__date">2019/04/28</p>
+                </div>
+                <h3><a href="###" class="articleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <p class="articleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+          <div class="newContainer__articleWrapper">
+            <div class="articleBox">
+              <div class="articleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="articleBox__image">--></div>
+              <div class="articleBox__textWrapper">
+                <div class="articleBox__titleWrapper">
+                  <p class="articleBox__title">エンジニア</p>
+                  <p class="articleBox__date">2019/04/28</p>
+                </div>
+                <h3><a href="###" class="articleBox__link">テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人テスト求人</a></h3>
+                <p class="articleBox__address">岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢岐阜県飛騨市北軽井沢</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="interviewContainer">
+        <h2 class="interviewContainer__title"><img class="interviewContainer__titleImg" src="images/interview.png"><span class="interviewContainer__titleText">インタビュー</span></h2>
+        <div class="interviewArticleBox">
+          <div class="interviewArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="interviewArticleBox__image">--></div>
+          <div class="interviewArticleBox__textWrapper">
+            <div class="interviewArticleBox__date">2019/04/28</div>
+            <h3><a href="###" class="interviewArticleBox__link">50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50 歳ま50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう</a></h3>
+            <div class="interviewArticleBox__company">佐藤ゴム製造株式会社</div>
+            <p class="interviewArticleBox__text">WEBサイト 企画・デザイン・制作を主に、iPhone/Androidアプリ開発、SEO対策、ECサイトの運営代 行・保守・管理を行います。</p>
+          </div>
+        </div>
+        <div class="interviewArticleBox">
+          <div class="interviewArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="interviewArticleBox__image">--></div>
+          <div class="interviewArticleBox__textWrapper">
+            <div class="interviewArticleBox__date">2019/04/28</div>
+            <h3><a href="###" class="interviewArticleBox__link">50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50 歳ま50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう</a></h3>
+            <div class="interviewArticleBox__company">佐藤ゴム製造株式会社</div>
+            <p class="interviewArticleBox__text">WEBサイト 企画・デザイン・制作を主に、iPhone/Androidアプリ開発、SEO対策、ECサイトの運営代 行・保守・管理を行います。</p>
+          </div>
+        </div>
+        <div class="interviewArticleBox">
+          <div class="interviewArticleBox__imgWrapper"><!--<img src="###" alt="求人イメージ" class="interviewArticleBox__image">--></div>
+          <div class="interviewArticleBox__textWrapper">
+            <div class="interviewArticleBox__date">2019/04/28</div>
+            <h3><a href="###" class="interviewArticleBox__link">50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50 歳ま50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう50歳まで働こう</a></h3>
+            <div class="interviewArticleBox__company">佐藤ゴム製造株式会社</div>
+            <p class="interviewArticleBox__text">WEBサイト 企画・デザイン・制作を主に、iPhone/Androidアプリ開発、SEO対策、ECサイトの運営代 行・保守・管理を行います。</p>
+          </div>
+        </div>
+      </div>
+      <div class="newCompanyContainer">
+        <h2 class="newCompanyContainer__title"><img class ="newCompanyContainer__titleImg" src="images/newCompany.png"><span class="newCompanyContainer__titleText">新着の求人企業</span></h2>
+        <div class="newCompanyContainer__contentsWrapper">
+          <div class="newCompanyContainer__articleWrapper">
+            <div class="newCompanyArticleBox">
+              <div class="newCompanyArticleBox__imgWrapper"><!--<img src="###" alt="###">--></div>
+              <div class="newCompanyArticleBox__textWrapper">
+                <h3><a href="" class="newCompanyArticleBox__link">株式会社テスト（箕面市）株式会社テスト株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト</a></h3>
+                <p class="newCompanyArticleBox__address">大阪府</p>
+              </div>
+            </div>
+          </div>
+          <div class="newCompanyContainer__articleWrapper">
+            <div class="newCompanyArticleBox">
+              <div class="newCompanyArticleBox__imgWrapper"><!--<img src="###" alt="###">--></div>
+              <div class="newCompanyArticleBox__textWrapper">
+                <h3><a href="" class="newCompanyArticleBox__link">株式会社テスト（箕面市）株式会社テスト株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト</a></h3>
+                <p class="newCompanyArticleBox__address">大阪府</p>
+              </div>
+            </div>
+          </div>
+          <div class="newCompanyContainer__articleWrapper">
+            <div class="newCompanyArticleBox">
+              <div class="newCompanyArticleBox__imgWrapper"><!--<img src="###" alt="###">--></div>
+              <div class="newCompanyArticleBox__textWrapper">
+                <h3><a href="" class="newCompanyArticleBox__link">株式会社テスト（箕面市）株式会社テスト株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト</a></h3>
+                <p class="newCompanyArticleBox__address">大阪府</p>
+              </div>
+            </div>
+          </div>
+          <div class="newCompanyContainer__articleWrapper">
+            <div class="newCompanyArticleBox">
+              <div class="newCompanyArticleBox__imgWrapper"><!--<img src="###" alt="###">--></div>
+              <div class="newCompanyArticleBox__textWrapper">
+                <h3><a href="" class="newCompanyArticleBox__link">株式会社テスト（箕面市）株式会社テスト株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト（箕面市）株式会社テスト株式会社テスト</a></h3>
+                <p class="newCompanyArticleBox__address">大阪府</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="deadlineContainer">
+        <h2 class="deadlineContainer__title"><img class="deadlineContainer__titleImg" src="images/limited.png"><span class="deadlineContainer__titleText">締め切り間近の求人情報</span></h2>
+        <p class="deadlineContainer__text">その条件に一致する求人情報はありませんでした。</p>
+      </div>
+      <div class="freewordContainer">
+        <h2 class="freewordContainer__title"><img class="freewordContainer__titleImg" src="images/freeword.png"><span class="__titleText">フリーワード検索</span></h2>
+        <div class="searchWrapper">
+          <div class="searchWrapper__inputBox">
+            <input class="searchWrapper__input" type="text" placeholder="キーワードを入力してください">
+          </div>
+          <a class="searchWrapper__btn" href="###">検索</a>
+        </div>
+      </div>
+      <div class="areaContainer">
+        <h2 class="areaContainer__title"><img class="areaContainer__titleImg" src="images/region.png"><span class="areaContainer__titleText">地域から探す</span></h2>
+        <ul class="linkWrapper">
+          <li><a href="###" class="linkWrapper__btn">岐阜市 (46)</a></li>
+          <li><a href="###" class="linkWrapper__btn">大垣市 (15)</a></li>
+          <li><a href="###" class="linkWrapper__btn">関市 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn">美濃市 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn">岐阜市 (46)</a></li>
+          <li><a href="###" class="linkWrapper__btn">大垣市 (15)</a></li>
+          <li><a href="###" class="linkWrapper__btn">関市 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn">美濃市 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn">岐阜市 (46)</a></li>
+          <li><a href="###" class="linkWrapper__btn">大垣市 (15)</a></li>
+          <li><a href="###" class="linkWrapper__btn">関市 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn">美濃市 (2)</a></li>
+        </ul>
+      </div>
+      <div class="workingStyleContainer">
+        <h2 class="workingStyleContainer__title"><img class="workingStyleContainer__titleImg" src="images/workingStyle.png"><span class="__titleText">勤務形態から探す</span></h2>
+        <div class="linkWrapper">
+          <li><a href="###" class="linkWrapper__btn">アルバイト (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn">正社員 (6)</a></li>
+        </div>
+      </div>
+      <div class="workingTypeContainer">
+        <h2 class="workingTypeContainer__title"><img class="workingTypeContainer__titleImg" src="images/workingType.png"><span class="__titleText">職種から探す</span></h2>
+        <ul class="linkWrapper linkWrapper--lgmg">
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">アパレル (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">マネージャー (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">コールセンター (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">トラック運転手 (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">一般事務 (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">歯科 (1)</a></li>
+        </ul>
+      </div>
+      <div class="featureContainer">
+        <h2 class="featureContainer__title"><img class="featureContainer__titleImg" src="images/feature.png"><span class="featureContainer__titleText">特徴から探す</span></h2>
+        <ul class="linkWrapper linkWrapper--lgmg">
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">時給1200円以上 (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">時給1500円以上 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">週5日勤務 (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">長期募集 (5)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">土日祝給与アップ (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">短期OK (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">時給1000円以上 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">週払いOK (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">資格取得 (3)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">週1日からOK (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">茶髪・ピアスOK (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">年齢不問 (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">服装自由 (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">制服あり (2)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">食事付き (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">人と接する (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">体を動かす (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">バイク通勤OK (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">車通勤OK (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">職場禁煙 (1)</a></li>
+          <li><a href="###" class="linkWrapper__btn linkWrapper__btn--wh">正社員登用あり (2)</a></li>
+        </ul>
+      </div>
+      <div class="newsContainer">
+        <div class="newsContainer__titleWrapper">
+          <h2 class="newsContainer__title"><img class="newsContainer__titleImg" src="images/news.png"><span class="newsContainer__titleText">お知らせ</span></h2>
+          <a href="###" class="newsContainer__btn"><div class="triangle triangle--blue triangle--btm"></div>もっと見る</a>
+        </div>
+        <div class="newsContainer__contentsWrapper">
+          <ul class="newsContainer__newsWrapper">
+            <li class="newsContainer__item">
+              <span class="newsContainer__date">2019/8/30</span>
+              <div class="newsContainer__text"><a class="newsContainer__textBtn" href="###">半角スペース 半角スペース！</a></div>
+            </li>
+            <li class="newsContainer__item">
+              <span class="newsContainer__date">2019/6/18</span>
+              <div class="newsContainer__text"><a class="newsContainer__textBtn" href="###">てすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすとてすと</a></div>
+            </li>
+            <li class="newsContainer__item">
+              <span class="newsContainer__date">2019/4/15</span>
+              <div class="newsContainer__text"><a class="newsContainer__textBtn" href="###">表示テスト表示テスト</a></div>
+            </li>
+            <li class="newsContainer__item">
+              <span class="newsContainer__date">2018/10/17</span>
+              <div class="newsContainer__text"><a class="newsContainer__textBtn" href="###">【SP】リンクテスト</a></div>
+            </li>
+            <li class="newsContainer__item">
+              <span class="newsContainer__date">2018/6/8</span>
+              <div class="newsContainer__text"><a class="newsContainer__textBtn" href="###">ニュースニュース</a></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div><!--l-main-->
+    <div class="l-sideBar">
+      <div class="entryBox">
+        <a href="" class="entryBox__btn">
+          <p class="entryBox__aboveText">カンタンな登録でOK！</p>
+          <p class="entryBox__underText">無料会員登録</p>
+        </a>
+      </div>
+      <div class="recruitBox">
+        <a href="" class="recruitBox__btn">
+          <img class="recruitBox__img" src="images/recruit.png" alt="採用ご担当者様へ">
+          <span class="recruitBox__text">採用ご担当者様へ</span>
+        </a>
+      </div>
+      <div class="loginBox">
+        <h2 class="loginBox__title">ログイン</h2>
+        <div class="loginBox__inputWrapper">
+          <p class="loginBox__text">メールアドレス</p>
+          <input class="loginBox__input" type="text">
+          <p class="loginBox__text">パスワード</p>
+          <input class="loginBox__input" type="text">
+          <div class="checkBoxWrapper">
+            <label class="checkBoxWrapper__originalCheckbox" for="loginCheck"><input type="checkbox" id="loginCheck" class="checkBoxWrapper__input">
+            <span class="checkBoxWrapper__checkMark"></span><span class="checkBoxWrapper__text">ログイン状態を保持</span></label>
+          </div>
+          <a href="###" class="loginBox__btn"><img class="loginBox__loginImg" src="images/login.png" alt="ログイン"><span class="loginBox__loginText">ログイン</span></a>
+        </div>
+      </div>
+      <div class="recentlyOfferBox">
+        <h2 class="recentlyOfferBox__title">最近見た求人</h2>
+        <div class="recentlyArticleBox">
+          <div class="recentlyArticleBox__imgWrapper"><!--<img src="" alt="">--></div>
+          <div class="recentlyArticleBox__textWrapper">
+            <p class="recentlyArticleBox__title">エンジニア</p>
+            <h3><a href="###" class="recentlyArticleBox__link">イチバン株式会社</a></h3>
+            <p class="recentlyArticleBox__text">みらいアパレル</p>
+            <p class="recentlyArticleBox__text">大阪</p>
+          </div>
+        </div>
+        <div class="recentlyArticleBox">
+          <div class="recentlyArticleBox__imgWrapper"><!--<img src="" alt="">--></div>
+          <div class="recentlyArticleBox__textWrapper">
+            <p class="recentlyArticleBox__title">エンジニア</p>
+            <h3><a href="###" class="recentlyArticleBox__link">イチバン株式会社</a></h3>
+            <p class="recentlyArticleBox__text">みらいアパレル</p>
+            <p class="recentlyArticleBox__text">大阪</p>
+          </div>
+        </div>
+        <a href="###" class="recentlyOfferBox__detailLink">もっと見る</a>
+      </div>
+      <div class="specialFeatureBox">
+        <h2 class="specialFeatureBox__title">求人特集</h2>
+        <a href="" class="specialFeatureBox__link">サンプル特集ページ</a>
+        <a href="" class="specialFeatureBox__link">高時給バイト特集</a>
+        <a href="" class="specialFeatureBox__link">中途採用特集</a>
+        <a href="" class="specialFeatureBox__link specialFeatureBox__link--last">求人特集ページのテスト</a>
+      </div>
+      <div class="rankingBox">
+        <h2 class="rankingBox__title">アクセスランキング</h2>
+        <div class="rankingArticleBox">
+          <div class="rankingArticleBox__imgWrapper">
+            <span class="rankingArticleBox__rankingNumber">1</span>
+            <!--<img src="" alt="">-->
+          </div>
+          <div class="rankingArticleBox__textWrapper">
+            <p class="rankingArticleBox__title">エンジニア</p>
+            <h3><a href="###" class="rankingArticleBox__link">イチバン株式会社</a></h3>
+            <p class="rankingArticleBox__text">みらいアパレル</p>
+            <p class="rankingArticleBox__text">大阪</p>
+          </div>
+        </div>
+        <div class="rankingArticleBox">
+          <div class="rankingArticleBox__imgWrapper">
+            <span class="rankingArticleBox__rankingNumber rankingArticleBox__rankingNumber--blue">2</span>
+            <!--<img src="" alt="">-->
+          </div>
+          <div class="rankingArticleBox__textWrapper">
+            <p class="rankingArticleBox__title">エンジニア</p>
+            <h3><a href="###" class="rankingArticleBox__link">イチバン株式会社</a></h3>
+            <p class="rankingArticleBox__text">みらいアパレル</p>
+            <p class="rankingArticleBox__text">大阪</p>
+          </div>
+        </div>
+        <div class="rankingArticleBox">
+          <div class="rankingArticleBox__imgWrapper">
+            <span class="rankingArticleBox__rankingNumber rankingArticleBox__rankingNumber--blue">3</span>
+            <!--<img src="" alt="">-->
+          </div>
+          <div class="rankingArticleBox__textWrapper">
+            <p class="rankingArticleBox__title">エンジニア</p>
+            <h3><a href="###" class="rankingArticleBox__link">イチバン株式会社</a></h3>
+            <p class="rankingArticleBox__text">みらいアパレル</p>
+            <p class="rankingArticleBox__text">大阪</p>
+          </div>
+        </div>
+      </div>
+      <div class="topixBox">
+        <h3 class="topixBox__title">トピックス</h3>
+        <a href="" class="topixBox__link">追加したいページ</a>
+        <a href="" class="topixBox__link">追加したいページ</a>
+        <a href="" class="topixBox__link">追加したいページ</a>
+        <a href="" class="topixBox__link topixBox__link--last">追加したいページ</a>
+      </div>
+    </div><!--l-sideBar-->
+  </main>
+  <div class="articleContainer">
+    <h2 class="articleContainer__title"><img class="articleContainer__titleImg" src="images/article.png"><span class="articleContainer__titleText">記事</span></h2>
+    <div class="articleContainer__contentsWrapper">
+      <div class="articleContainer__articleWrapper articleContainer__articleWrapper--fullWidth">
+        <div class="footerArticleBox">
+          <div class="footerArticleBox__imgWrapper"><!--<img src="###" alt="###">--></div>
+          <div class="footerArticleBox__textWrapper">
+            <h3><a href="" class="footerArticleBox__link">記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら</a></h3>
+            <p class="footerArticleBox__address">記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記</p>
+          </div>
+        </div>
+      </div>
+      <div class="articleContainer__articleWrapper articleContainer__articleWrapper--fullWidth">
+        <div class="footerArticleBox">
+          <div class="footerArticleBox__imgWrapper"><!--<img src="###" alt="###">--></div>
+          <div class="footerArticleBox__textWrapper">
+            <h3><a href="" class="footerArticleBox__link">記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら</a></h3>
+            <p class="footerArticleBox__address">記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記</p>
+          </div>
+        </div>
+      </div>
+      <div class="articleContainer__articleWrapper articleContainer__articleWrapper--fullWidth">
+        <div class="footerArticleBox">
+          <div class="footerArticleBox__imgWrapper"><!--<img src="###" alt="###">--></div>
+          <div class="footerArticleBox__textWrapper">
+            <h3><a href="" class="footerArticleBox__link">記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら記事のタイトルはこちら</a></h3>
+            <p class="footerArticleBox__address">記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記事の説明はこちら。記</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="###" class="articleContainer__btn"><div class="triangle triangle--btm"></div>もっと見る</a>
+  </div>
+  <div class="bgSiteMap">
+    <div class="l-siteMap">
+      <div class="siteMenuBox">
+        <ul class="siteMenuBox__leftWrapper">
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">オススメの求人</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">求人を探す</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">地図から探す</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">インタビュー</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">記事</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">企業検索</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">お知らせ</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">よくあるご質問</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">お祝い金申請</a></li>
+        </ul>
+        <ul class="siteMenuBox__rightWrapper">
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">求職者の会員登録</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">採用ご担当者様へ</a></li>
+          <li class="siteMenuBox__link"><a href="###" class="siteMenuBox__btn">企業登録</a></li>
+        </ul>
+      </div>
+      <div class="areaSearchBox">
+        <div class="areaSearchBox__contentsWrapper">
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">北海道・東北</p>
+            <ul class="areaSearchBox__linkBox">
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">北海道</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">青森県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">岩手県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">宮城県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">秋田県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">山形県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">福島県</a></li>
+            </ul>
+          </div>
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">関東</p>
+            <ul class="areaSearchBox__linkBox">
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">茨城県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">栃木県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">群馬県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">埼玉県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">千葉県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">東京都</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">神奈川県</a></li>
+            </ul>  
+          </div>
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">信越・甲信越</p>
+            <ul class="areaSearchBox__linkBox">
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">新潟県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">富山県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">石川県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">福井県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">山梨県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">長野県</a></li>
+            </ul>
+          </div>
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">東海</p>
+            <ul class="areaSearchBox__linkBox">
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">岐阜県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">静岡県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">愛知県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">三重県</a></li>
+            </ul>
+          </div>
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">近畿</p>
+            <ul class="areaSearchBox__linkBox">
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">滋賀県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">京都府</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">大阪府</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">兵庫県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">奈良県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">和歌山県</a></li>
+            </ul>  
+          </div>
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">中国</p>
+            <ul class="areaSearchBox__linkBox">
+              <li a class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">鳥取県</a></li>
+              <li a class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">島根県</a></li>
+              <li a class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">岡山県</a></li>
+              <li a class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">広島県</a></li>
+              <li a class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">山口県</a></li>
+            </ul>
+          </div>
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">四国</p>
+            <ul class="areaSearchBox__linkBox">
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">徳島県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">香川県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">愛媛県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">高知県</a></li>
+            </ul>
+          </div>
+          <div class="areaSearchBox__listWrapper">
+            <p class="areaSearchBox__region">九州・沖縄</p>
+            <ul class="areaSearchBox__linkBox">
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">福岡県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">佐賀県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">長崎県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">熊本県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">大分県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">宮崎県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">鹿児島県</a></li>
+              <li class="areaSearchBox__link"><a class="areaSearchBox__btn" href="###">沖縄県</a></li>
+            </ul>
+          </div><!--areaSearchBox__listWrapper-->
+        </div><!--areaSearchBox__contentsWrapper-->
+      </div><!--areaSearchBox-->
+    </div><!--l-siteMap-->
+  </div><!--bgSiteMap-->
+  <div id="pagetop" class="pagetop"><a class="pagetop__btn" href="###">ページ<br>上部へ</a></div>
+  <footer class="l-footer">
+    <ul class="footer__listWrapper">
+      <li class="footer__list"><a href="###" class="footer__btn">ログイン</a></li>
+      <li class="footer__list"><a href="###" class="footer__btn">プライバシーポリシー</a></li>
+      <li class="footer__list"><a href="###" class="footer__btn">ご利用規約</a></li>
+      <li class="footer__list"><a href="###" class="footer__btn">運営会社</a></li>
+      <li class="footer__list"><a href="###" class="footer__btn">お問い合わせ</a></li>
+    </ul>
+    <p class="copyright"><small>copyright &copy; ◯◯◯◯ All Rights Reserved</small></p>
+  </footer>
+  <script src="index.js"></script>
+</body>
+</html>
